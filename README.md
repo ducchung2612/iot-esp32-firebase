@@ -20,8 +20,8 @@ This Android app enables **real-time monitoring of temperature and humidity**, a
 | <img src="https://github.com/ducchung2612/iot-esp32-firebase/blob/main/448274421-08b462bc-d23b-40d2-bd21-dcf6002a1333.png?raw=true" width="200"/> | <img src="https://github.com/user-attachments/assets/6e165d5e-f56b-402b-9f74-3618a6f45905" width="200"/> | <img src="https://github.com/ducchung2612/iot-esp32-firebase/blob/main/giaodien.png?raw=true" width="200"/> |
  
 
-🎥 **Demo video**: [[Watch on YouTube](https://www.youtube.com/watch?v=your-video-id)](https://youtu.be/XZl87-dAdTg?si=AB-KasloOCUd7sy5)
-📦  Download APK: [Click here to download](https://drive.google.com/file/d/1ln_NeGqV1gBH3xlCzrCAfBNyY6q4rKQj/view?usp=sharing)
+🎥 **Demo video**: [[Watch on YouTube](https://www.youtube.com/watch?v=your-video-id)](https://youtu.be/tV6abDleoD8)
+📦  Download APK: [https://drive.google.com/file/d/1JRPQeZvut3SpGOnknil8w1qGjX0DU3Rf/view?usp=sharing)
 ---
 
 ## 3. 🛠️ TECHNOLOGIES USED
@@ -64,6 +64,15 @@ This Android app enables **real-time monitoring of temperature and humidity**, a
 
 ---
 
+## made by :
+Nguyễn Đức Chung
+
+Hoàng Công Chiến
+
+Phan Thanh Hải
+
+
+study in: Ha Noi University of Business and Technology
 ## 6. 📄 LICENSE
 
 This project is licensed under the **MIT License** – feel free to use and modify it with proper attribution.
