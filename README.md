@@ -6,12 +6,27 @@ This Android app enables **real-time monitoring of temperature and humidity**, a
 
 ## 1. 🔥 FEATURES
 
-- 📡 Real-time monitoring of temperature and humidity via ESP32 sensors
-- 💡 Remote control to turn LED on/off via app
-- ☁️ Firebase integration for cloud-based data synchronization
-- 🏠 Smart home ready – easily adaptable to IoT systems
+1.1.Real-time Sensor Monitoring
 
----
+- Reads temperature & humidity data (likely from DHT11/DHT22 sensor via Arduino/ESP8266/ESP32)
+
+- Displays live updates in the Android app
+
+1.2.Remote LED Control
+
+- Toggle LED status (ON/OFF) from the app
+
+- Firebase acts as the cloud-based control hub
+
+1.3.Firebase Integration
+
+- Realtime Database (for sensor data & LED state)
+
+- Authentication (optional, for user login)
+
+1.4.Smart Home / IoT Use Case
+
+- Can be used for home automation, greenhouse monitoring, etc.
 
 ## 2. 📱 APP DEMO
 
@@ -34,24 +49,7 @@ This Android app enables **real-time monitoring of temperature and humidity**, a
 
 ---
 
-## 4. ⚙️ HOW TO BUILD & RUN
-
-### 4.1. Requirements:
-- Android Studio (Electric Eel or later)
-- Firebase project with Realtime Database enabled
-- ESP32 board, LED, DHT22 sensor
-
-### 4.2. Steps: git clone https://github.com/ducchung2612/iot-esp32-firebase
-
-
-- Open the project in Android Studio (`File > Open`)
-- Connect Firebase or replace the `google-services.json` file
-- Run the app on a physical device (API 21+)
-- Upload code to ESP32 from the `ESP32SensorProject` folder using Arduino IDE
-
----
-
-## 5. 🔌 HARDWARE CONNECTION TABLE
+## 4. 🔌 HARDWARE CONNECTION TABLE
 
 | Component        | ESP32 Pin  |
 |------------------|------------|
@@ -63,6 +61,36 @@ This Android app enables **real-time monitoring of temperature and humidity**, a
 
 
 ---
+## 📝 How It Works?
+
+1.Hardware Side (ESP32/Arduino)
+  - Reads sensor data → Sends to Firebase
+  - Listens for LED commands from Firebase
+
+2.Android App
+  - Subscribes to Firebase for live updates
+  - Sends LED toggle commands
+
+3.Firebase
+  - Acts as the middleman for bidirectional communication
+
+## 5. ⚙️ HOW TO BUILD & RUN
+
+### 5.1. System Requirements:
+- Android Studio (Electric Eel or later)
+- Firebase project with Realtime Database enabled
+- ESP32 board, LED, DHT22 sensor
+
+### 5.2. Steps: git clone https://github.com/ducchung2612/iot-esp32-firebase
+
+
+- Open the project in Android Studio (`File > Open`)
+- Connect Firebase or replace the `google-services.json` file
+- Run the app on a physical device (API 21+)
+- Upload code to ESP32 from the `ESP32SensorProject` folder using Arduino IDE
+
+---
+
 
 ## 6. 📄 LICENSE
 
