@@ -15,8 +15,8 @@ This Android app enables **real-time monitoring of temperature and humidity**, a
 
 ## 2. 📱 APP DEMO
 
-| App UI | Firebase Database | ESP32 & Sensor |
-|--------|-------------------|----------------|
+| App UI | ESP32 & Sensor |
+|--------|----------------|
 | <img src="https://github.com/ducchung2612/iot-esp32-firebase/blob/main/448274421-08b462bc-d23b-40d2-bd21-dcf6002a1333.png?raw=true" width="200"/> | <img src="https://github.com/ducchung2612/iot-esp32-firebase/blob/main/giaodien.png?raw=true" width="200"/> |
  
 
